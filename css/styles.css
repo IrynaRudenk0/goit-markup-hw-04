@@ -363,20 +363,15 @@ background-color: var(--white-color);
         border: 1px solid var(--subtle-text-color);
     border-radius: 4px;
     height: 88px;
+    fill: var(--subtle-text-color);
 }
 
 .customers-link:hover,
 .customers-link:focus {
     border-color: var(--pressed-state-color);
-}
-
-.icon-customers {
-    fill: var(--subtle-text-color);
-}
-
-.icon-customers:hover {
     fill: var(--pressed-state-color);
 }
+
 
 /* footer */
 
@@ -387,10 +382,7 @@ background-color: var(--white-color);
 
 .footer-wrapper {
     display: flex;
-       padding-left: 156px;  
        align-items: baseline;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer-block {
